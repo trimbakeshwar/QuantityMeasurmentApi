@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QuantityMeasurmentCL
 {
-    class ClonversionModelcs
+    public class ConversionModel
     {
 
        

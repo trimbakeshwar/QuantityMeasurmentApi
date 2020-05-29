@@ -6,7 +6,7 @@ F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\bin\Debug\netstandard2.0\Quan
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.csprojAssemblyReference.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.AssemblyInfoInputs.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.AssemblyInfo.cs
-F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.csproj.CoreCompileInputs.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.csproj.CopyComplete
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.dll
 F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.pdb
+F:\trimbak\quantityMeasurment\QuantityMeasurmentRL\obj\Debug\netstandard2.0\QuantityMeasurmentRL.csproj.CoreCompileInputs.cache
