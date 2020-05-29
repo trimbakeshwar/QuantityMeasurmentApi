@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kt0IrjSKjCj2TbIrtHmbWskVONVxeEOuE0xjw9y1Al5hwslvfz34i6AtlSnUXAaDoZ6VyZJP4fhXdYBtsVop6A==",
+  "success": true,
+  "projectFilePath": "F:\\trimbak\\quantityMeasurment\\quantityMeasurmentBL\\quantityMeasurmentBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Er. Sandesh Bora\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Er. Sandesh Bora\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

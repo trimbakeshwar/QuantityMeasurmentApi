@@ -1,0 +1,5 @@
+F:\trimbak\quantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\trimbak\quantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\appsettings.json
+F:\trimbak\quantityMeasurment\QuantityMeasurment\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+F:\trimbak\quantityMeasurment\QuantityMeasurment\obj\Debug\netcoreapp2.1\QuantityMeasurment.AssemblyInfoInputs.cache
+F:\trimbak\quantityMeasurment\QuantityMeasurment\obj\Debug\netcoreapp2.1\QuantityMeasurment.AssemblyInfo.cs
