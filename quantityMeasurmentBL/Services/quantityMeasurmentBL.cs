@@ -5,7 +5,7 @@ using System.Text;
 
 namespace quantityMeasurmentBL.Services
 {
-    class quantityMeasurmentBL : IquantityMeasurmentBL
+    public class quantitymeasurmentBL : IquantityMeasurmentBL
     {
     }
 }
