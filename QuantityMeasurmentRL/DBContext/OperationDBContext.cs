@@ -12,8 +12,8 @@ namespace QuantityMeasurmentRL.DBContext
         {
 
         }
-        public DbSet<ConversionModel> Quantities { get; set; }
+        public DbSet<ConversionModel> Conversion { get; set; }
 
-        public DbSet<ConversionModel> Comparisons { get; set; }
+        public DbSet<CamparisonModel> Comparisons { get; set; }
     }
 }
