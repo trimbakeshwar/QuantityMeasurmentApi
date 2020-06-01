@@ -7,10 +7,10 @@ namespace quantityMeasurmentBL.interfaces
 {
     public interface IquantityMeasurmentBL
     {
-        ConversionModel Convert(ConversionModel Data);
-        ConversionModel Delete(int Id);
-        IEnumerable<ConversionModel> GetConversion();
-        ConversionModel GetConversion(int Id);
+        ConversionsModel Convert(ConversionsModel Data);
+        ConversionsModel Delete(int Id);
+        IEnumerable<ConversionsModel> GetConversion();
+        ConversionsModel GetConversion(int Id);
 
     }
 }

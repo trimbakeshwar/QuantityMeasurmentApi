@@ -15,19 +15,28 @@ namespace quantityMeasurmentBL.Services
         {
             this.measurmentRL = measurmentRL;
         }
-        public ConversionModel Convert(ConversionModel Data)
+        public ConversionsModel Convert(ConversionsModel Data)
         {
-            Data.Result = Calculate(Data);
-            return this.measurmentRL.Add(Data);
-        }
-
-        private decimal Calculate(ConversionModel data)
-        {
-            ConversionEnum coversionObj = new ConversionEnum();
-            decimal value = data.Value;
-            string units = data.OperationType;
             try
             {
+                Data.Result = Calculate(Data);
+                return this.measurmentRL.Add(Data);
+            }
+            catch(Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+           
+        }
+
+        private decimal Calculate(ConversionsModel data)
+        {
+            try
+            {
+                ConversionEnum coversionObj = new ConversionEnum();
+                decimal value = data.Value;
+                string units = data.OperationType;
+           
                 switch (units)
                 {
 
@@ -72,9 +81,9 @@ namespace quantityMeasurmentBL.Services
                     case "TONNE_TO_GRAMS":
                         return coversionObj.UnitConversion(Unit.TONNE_TO_GRAMS, value);                       
                     case "FAHRENHEIT_TO_CELSIUS":
-                        return coversionObj.UnitConversion(Unit.FAHRENHEIT_TO_CELSIUS, value);                       
+                        return ((value - 32) * 5 / 9);
                     case "CELSIUS_TO_FAHRENHEIT":
-                        return coversionObj.UnitConversion(Unit.FAHRENHEIT_TO_CELSIUS, value);                        
+                        return ((value * 9 / 5) + 32);
                     default:
                         throw new Exception("not a valid type");                       
                 }
@@ -86,19 +95,40 @@ namespace quantityMeasurmentBL.Services
 
         }
 
-        public ConversionModel Delete(int Id)
+        public ConversionsModel Delete(int Id)
         {
-            return this.measurmentRL.Delete(Id);
+            try
+            {
+                return this.measurmentRL.Delete(Id);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
-        public IEnumerable<ConversionModel> GetConversion()
+        public IEnumerable<ConversionsModel> GetConversion()
         {
-            return this.measurmentRL.GetConversion();
+            try 
+            { 
+                return this.measurmentRL.GetConversion();
+            }
+             catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
-        public ConversionModel GetConversion(int Id)
+        public ConversionsModel GetConversion(int Id)
         {
-            return this.measurmentRL.GetConversion(Id);
+            try
+            {
+                return this.measurmentRL.GetConversion(Id);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
     }
 }

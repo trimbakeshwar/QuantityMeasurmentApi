@@ -4,6 +4,6 @@ F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\bin\Debug\netstandard2.0\Quan
 F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.csprojAssemblyReference.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.AssemblyInfoInputs.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.AssemblyInfo.cs
-F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.csproj.CoreCompileInputs.cache
 F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.dll
 F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.pdb
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.0\QuantityMeasurmentCL.csproj.CoreCompileInputs.cache

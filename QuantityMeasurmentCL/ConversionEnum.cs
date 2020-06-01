@@ -35,7 +35,7 @@ namespace QuantityMeasurmentCL
             //conversions according to temperature
             public const decimal CELSIUS = ((decimal)(1.0 * 2.12));
             public const decimal FAHRENHEIT_TO_CELSIUS = ((decimal)(1.0 / 2.12));
-            public const decimal CELSIUS_TO_FAHRENHEIT = ((decimal)((1.0 * 9.0 / 5.0) + 32));
+            public const decimal CELSIUS_TO_FAHRENHEIT = ((decimal)(1.0 * 33.8));
             //Enums for 
         }
         public decimal UnitConversion(decimal units, decimal value)

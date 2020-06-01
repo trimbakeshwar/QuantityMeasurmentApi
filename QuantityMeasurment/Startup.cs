@@ -37,7 +37,7 @@ namespace QuantityMeasurment
             //a new instance is provided every time a service instance is requested
             services.AddTransient<IquantityMeasurmentRL, quantityMeasurmentRL>();
             services.AddTransient<IquantityMeasurmentBL, quantitymeasurmentBL>();
-            services.AddDbContextPool<OperationDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("QuantityMeasurmentContext")));
+            services.AddDbContextPool<OperationsDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("QuantityMeasurmentContext")));
 
         }
 

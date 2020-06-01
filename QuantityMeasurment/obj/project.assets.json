@@ -4345,6 +4345,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "QuantityMeasurmentCL": "1.0.0",
           "QuantityMeasurmentRL": "1.0.0"
         },
@@ -4358,6 +4359,9 @@
       "QuantityMeasurmentCL/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0"
+        },
         "compile": {
           "bin/placeholder/QuantityMeasurmentCL.dll": {}
         },
@@ -4369,7 +4373,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "QuantityMeasurmentCL": "1.0.0"
         },
         "compile": {

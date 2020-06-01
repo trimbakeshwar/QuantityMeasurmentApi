@@ -6,14 +6,14 @@ using System.Text;
 
 namespace QuantityMeasurmentRL.DBContext
 {
-    public class OperationDBContext : DbContext
+    public class OperationsDBContext : DbContext
     {
-        OperationDBContext(DbContextOptions<OperationDBContext> options) : base(options)
+        public OperationsDBContext(DbContextOptions<OperationsDBContext> options) : base(options)
         {
 
         }
-        public DbSet<ConversionModel> Conversion { get; set; }
+        public DbSet<ConversionsModel> Conversions { get; set; }
 
-        public DbSet<CamparisonModel> Comparisons { get; set; }
+        public DbSet<CamparisonsModel> Comparisons { get; set; }
     }
 }

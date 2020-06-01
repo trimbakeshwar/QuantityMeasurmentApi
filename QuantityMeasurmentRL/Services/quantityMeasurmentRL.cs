@@ -10,39 +10,71 @@ namespace QuantityMeasurmentRL.Services
 {
     public class quantityMeasurmentRL : IquantityMeasurmentRL
     {
-        private OperationDBContext dBContext;
-        public quantityMeasurmentRL(OperationDBContext dBContext)
+        private OperationsDBContext dBContext;
+        public quantityMeasurmentRL(OperationsDBContext dBContext)
         {
+            
             this.dBContext = dBContext;
         }
-        public ConversionModel Add(ConversionModel data)
+        public ConversionsModel Add(ConversionsModel data)
         {
-            dBContext.Conversion.Add(data);
-            dBContext.SaveChanges();
-            return data;
-        }
-
-        public ConversionModel Delete(int Id)
-        {
-            ConversionModel Data = dBContext.Conversion.Find(Id);
-            if(Data!=null)
+            try 
             {
-                dBContext.Conversion.Remove(Data);
+                dBContext.Conversions.Add(data);
                 dBContext.SaveChanges();
+                return data;
             }
-            return Data;
-
+            catch(Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            
         }
 
-        public IEnumerable<ConversionModel> GetConversion()
+        public ConversionsModel Delete(int Id)
         {
-            return dBContext.Conversion.ToList();
+            try
+            {
+                ConversionsModel Data = dBContext.Conversions.Find(Id);
+                if (Data != null)
+                {
+                    dBContext.Conversions.Remove(Data);
+                    dBContext.SaveChanges();
+                }
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
+
         }
 
-        public ConversionModel GetConversion(int Id)
+        public IEnumerable<ConversionsModel> GetConversion()
         {
-            ConversionModel Data = dBContext.Conversion.Find(Id);
-            return Data;
+            try
+            { 
+                return dBContext.Conversions.ToList();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
         }
+
+        public ConversionsModel GetConversion(int Id)
+        {
+            try
+            {
+                ConversionsModel Data = dBContext.Conversions.Find(Id);
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }           
     }
 }

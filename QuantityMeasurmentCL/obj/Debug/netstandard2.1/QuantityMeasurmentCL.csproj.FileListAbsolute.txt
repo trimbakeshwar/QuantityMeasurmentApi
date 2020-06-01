@@ -1,0 +1,9 @@
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\bin\Debug\netstandard2.1\QuantityMeasurmentCL.deps.json
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\bin\Debug\netstandard2.1\QuantityMeasurmentCL.dll
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\bin\Debug\netstandard2.1\QuantityMeasurmentCL.pdb
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.csprojAssemblyReference.cache
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.AssemblyInfoInputs.cache
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.AssemblyInfo.cs
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.csproj.CoreCompileInputs.cache
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.dll
+F:\trimbak\quantityMeasurment\QuantityMeasurmentCL\obj\Debug\netstandard2.1\QuantityMeasurmentCL.pdb

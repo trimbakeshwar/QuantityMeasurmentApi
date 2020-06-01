@@ -8,9 +8,9 @@ namespace QuantityMeasurmentRL.interfaces
     public interface IquantityMeasurmentRL
     {
             
-        ConversionModel Add(ConversionModel quantity);
-        ConversionModel Delete(int Id);
-        IEnumerable<ConversionModel> GetConversion();
-        ConversionModel GetConversion(int Id);
+        ConversionsModel Add(ConversionsModel quantity);
+        ConversionsModel Delete(int Id);
+        IEnumerable<ConversionsModel> GetConversion();
+        ConversionsModel GetConversion(int Id);
     }
 }
