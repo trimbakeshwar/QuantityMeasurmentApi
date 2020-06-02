@@ -31,6 +31,20 @@ namespace QuantityMeasurmentRL.Services
             
         }
 
+        public CamparisonsModel AddComparison(CamparisonsModel data)
+        {
+            try
+            {
+                dBContext.Comparisons.Add(data);
+                dBContext.SaveChanges();
+                return data;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
         public ConversionsModel Delete(int Id)
         {
             try
@@ -49,6 +63,49 @@ namespace QuantityMeasurmentRL.Services
             }
 
 
+        }
+
+        public CamparisonsModel DeleteComparisone(int Id)
+        {
+            try
+            {
+                CamparisonsModel Data = dBContext.Comparisons.Find(Id);
+                if (Data != null)
+                {
+                    dBContext.Comparisons.Remove(Data);
+                    dBContext.SaveChanges();
+                }
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public IEnumerable<CamparisonsModel> GetComparison()
+        {
+            try
+            {
+                return dBContext.Comparisons.ToList();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public CamparisonsModel GetComparison(int Id)
+        {
+            try
+            {
+                CamparisonsModel Data = dBContext.Comparisons.Find(Id);
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
         }
 
         public IEnumerable<ConversionsModel> GetConversion()

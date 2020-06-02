@@ -11,6 +11,9 @@ namespace quantityMeasurmentBL.interfaces
         ConversionsModel Delete(int Id);
         IEnumerable<ConversionsModel> GetConversion();
         ConversionsModel GetConversion(int Id);
-
+        CamparisonsModel AddComparison(CamparisonsModel quantity);
+        CamparisonsModel DeleteComparisone(int Id);
+        IEnumerable<CamparisonsModel> GetComparison();
+        CamparisonsModel GetComparison(int Id);
     }
 }
