@@ -11,6 +11,11 @@ namespace QuantityMeasurmentRL.Services
     public class quantityMeasurmentRL : IquantityMeasurmentRL
     {
         private OperationsDBContext dBContext;
+
+        public quantityMeasurmentRL()
+        {
+        }
+
         public quantityMeasurmentRL(OperationsDBContext dBContext)
         {
             

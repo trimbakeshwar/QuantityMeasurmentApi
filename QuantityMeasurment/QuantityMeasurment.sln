@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantityMeasurment", "QuantityMeasurment.csproj", "{4BA27F9E-7CAB-4C50-B22B-C5E3701AD28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quantityMeasurmentBL", "..\quantityMeasurmentBL\quantityMeasurmentBL.csproj", "{C138477B-90D2-4510-9133-2DBC5BE9C12A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quantityMeasurmentBL", "..\quantityMeasurmentBL\quantityMeasurmentBL.csproj", "{C138477B-90D2-4510-9133-2DBC5BE9C12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurmentRL", "..\QuantityMeasurmentRL\QuantityMeasurmentRL.csproj", "{BCC1858C-FB29-49E8-84F9-AB147A9DD85F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantityMeasurmentRL", "..\QuantityMeasurmentRL\QuantityMeasurmentRL.csproj", "{BCC1858C-FB29-49E8-84F9-AB147A9DD85F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurmentCL", "..\QuantityMeasurmentCL\QuantityMeasurmentCL.csproj", "{C9B49B85-2167-4DC0-860C-4FABBAA93C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuantityMeasurmentCL", "..\QuantityMeasurmentCL\QuantityMeasurmentCL.csproj", "{C9B49B85-2167-4DC0-860C-4FABBAA93C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantityMeasurmentTest", "..\QuantityMeasurmentTest\QuantityMeasurmentTest.csproj", "{A48DC0C7-A286-4482-971C-87CF211B48AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C9B49B85-2167-4DC0-860C-4FABBAA93C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B49B85-2167-4DC0-860C-4FABBAA93C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B49B85-2167-4DC0-860C-4FABBAA93C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48DC0C7-A286-4482-971C-87CF211B48AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48DC0C7-A286-4482-971C-87CF211B48AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48DC0C7-A286-4482-971C-87CF211B48AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48DC0C7-A286-4482-971C-87CF211B48AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

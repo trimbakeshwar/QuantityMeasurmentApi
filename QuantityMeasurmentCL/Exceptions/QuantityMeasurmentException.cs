@@ -8,6 +8,7 @@ namespace QuantityMeasurmentCL.Exceptions
     {
         public enum ExceptionType
         {
+            NOT_VALID_TYPE,
             NULL_VALUE_EXCEPTION,
             ZERO_OR_NEGATIVE_VALUE_EXCEPTION
         }
