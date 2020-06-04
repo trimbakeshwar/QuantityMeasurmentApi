@@ -16,6 +16,7 @@ using quantityMeasurmentBL.Services;
 using QuantityMeasurmentRL.DBContext;
 using QuantityMeasurmentRL.interfaces;
 using QuantityMeasurmentRL.Services;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace QuantityMeasurment
 {
@@ -38,7 +39,21 @@ namespace QuantityMeasurment
             services.AddTransient<IquantityMeasurmentRL, quantityMeasurmentRL>();
             services.AddTransient<IquantityMeasurmentBL, quantitymeasurmentBL>();
             services.AddDbContextPool<OperationsDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("QuantityMeasurmentContext")));
-
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Quantity Measurement API",
+                    Description = "Asp.NET Core API",
+                    TermsOfService = "None",
+                    Contact = new Contact()
+                    {
+                        Name = "hudge trimbakeshwar",
+                        Email = "hudge.trimbakeshwar@gmail.com"
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,6 +70,10 @@ namespace QuantityMeasurment
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Quantity Measurement API");
+            });
         }
     }
 }

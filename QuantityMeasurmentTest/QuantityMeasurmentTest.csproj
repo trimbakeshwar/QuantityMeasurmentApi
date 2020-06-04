@@ -10,6 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
     <PackageReference Include="Moq" Version="4.14.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="2.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="2.1.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
@@ -17,8 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\quantityMeasurmentBL\quantityMeasurmentBL.csproj" />
-    <ProjectReference Include="..\QuantityMeasurmentCL\QuantityMeasurmentCL.csproj" />
-    <ProjectReference Include="..\QuantityMeasurmentRL\QuantityMeasurmentRL.csproj" />
     <ProjectReference Include="..\QuantityMeasurment\QuantityMeasurment.csproj" />
   </ItemGroup>
 

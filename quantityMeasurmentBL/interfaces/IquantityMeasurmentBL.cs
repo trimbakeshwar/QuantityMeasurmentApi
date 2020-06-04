@@ -5,6 +5,9 @@ using System.Text;
 
 namespace quantityMeasurmentBL.interfaces
 {
+    /// <summary>
+    /// interface of busness layer and implement in quantitymeasurment bl
+    /// </summary>
     public interface IquantityMeasurmentBL
     {
         ConversionsModel Convert(ConversionsModel Data);
